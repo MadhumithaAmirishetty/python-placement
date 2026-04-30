@@ -4,11 +4,11 @@ pos=1
 for i in range(3):
     avg=(sum(marks[i])//len(marks[i]))
     if(avg>80):
-        print("{}.Ms {} has scored {}.% - S Grade".format(pos,name[i].title(),avg))
+        print("{}.Ms/Mr {} has scored {}.% - S Grade".format(pos,name[i].title(),avg))
     elif(avg>40 and avg<60):
-        print("{}.Ms {} has scored {}.% - B Grade".format(pos,name[i].title(),avg))
+        print("{}.Ms/Mr {} has scored {}.% - B Grade".format(pos,name[i].title(),avg))
     elif(avg>60 and avg>80):
-        print("{}.Ms {} has scored {}.% - A Grade".format(pos,name[i].title(),avg))
+        print("{}.Ms/Mr {} has scored {}.% - A Grade".format(pos,name[i].title(),avg))
     else:
-          print("{}.Ms {} has scored {}.% - Failed".format(pos,name[i].title(),avg))
+          print("{}.Ms/Mr{} has scored {}.% - Failed".format(pos,name[i].title(),avg))
     pos=pos+1
